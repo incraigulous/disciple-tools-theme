@@ -44,7 +44,7 @@ class Disciple_Tools_Utilities_Menu
 
         ?>
         <div class="wrap">
-            <h2><?php esc_attr_e( 'DISCIPLE TOOLS : UTILITIES' ) ?></h2>
+            <h2><?php esc_attr_e( 'DISCIPLE.TOOLS : UTILITIES' ) ?></h2>
 
             <h2 class="nav-tab-wrapper">
                 <?php do_action( 'dt_utilities_tab_menu', $tab ); ?>

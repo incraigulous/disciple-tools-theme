@@ -44,7 +44,7 @@ class Disciple_Tools_Metrics_Menu
 
         ?>
         <div class="wrap">
-            <h2><?php esc_attr_e( 'DISCIPLE TOOLS : METRICS' ) ?></h2>
+            <h2><?php esc_attr_e( 'DISCIPLE.TOOLS : METRICS' ) ?></h2>
 
             <h2 class="nav-tab-wrapper">
                 <?php do_action( 'dt_metrics_tab_menu', $tab ); ?>

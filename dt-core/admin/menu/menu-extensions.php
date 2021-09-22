@@ -1,6 +1,6 @@
 <?php
 /**
- * DT Extensions Menu is a reusable class for Disciple Tools plugins, so that they can either add or update the shared extensions menu.
+ * DT Extensions Menu is a reusable class for Disciple.Tools plugins, so that they can either add or update the shared extensions menu.
  * @class DT_Extensions_Menu
  * @version 0.1.0
  * @requires disciple-tools-theme
@@ -44,7 +44,7 @@ if ( ! class_exists( 'DT_Extensions_Menu' ) ) {
 
             ?>
             <div class="wrap">
-                <h2><?php esc_html_e( 'DISCIPLE TOOLS : EXTENSIONS', 'disciple_tools' ) ?></h2>
+                <h2><?php esc_html_e( 'DISCIPLE.TOOLS : EXTENSIONS', 'disciple_tools' ) ?></h2>
 
                 <h2 class="nav-tab-wrapper">
                     <?php do_action( 'dt_extensions_tab_menu', $tab ); ?>

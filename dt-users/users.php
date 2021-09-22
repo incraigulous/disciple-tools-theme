@@ -808,7 +808,7 @@ class Disciple_Tools_Users
         if ( empty( $contact_title ) ) : ?>
             <script type="application/javascript">
                 jQuery(document).ready(function($) {
-                    //removes the Wordpress Language selector that only shows the Wordpress languages and not the Disciple tools languages.
+                    //removes the Wordpress Language selector that only shows the Wordpress languages and not the Disciple.Tools languages.
                     jQuery(".form-field.user-language-wrap").remove();
 
                     jQuery(".corresponds_to_contact").each(function () {
